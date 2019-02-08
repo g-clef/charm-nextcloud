@@ -1,0 +1,22 @@
+packages:
+  - 'apache2'
+  - 'libapache2-mod-php7.2'
+  - 'php7.2-gd'
+  - 'php7.2-json'
+  - 'php7.2-mysql'
+  - 'php7.2-curl'
+  - 'php7.2-mbstring'
+  - 'php7.2-intl'
+  - 'php-imagick'
+  - 'php7.2-zip'
+  - 'php7.2-xml'
+  - 'php-apcu'
+  - 'php-redis'
+  - 'php-smbclient'
+sites:
+  nextcloud:
+    options: 'Indexes FollowSymLinks MultiViews'
+    install_from:
+      source: https://download.nextcloud.com/server/releases/nextcloud-15.0.2.tar.bz2
+      checksum: c1f4cc33e39994ddbe6777370b62c30b7ae52136a0530c0b9922770803ca0fea
+      hash_type: sha256

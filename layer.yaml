@@ -1,0 +1,10 @@
+includes:
+  - 'layer:basic'
+  - 'layer:apache-php'
+  - 'layer:options'
+  - 'interface:mysql'
+  - 'interface:http'
+options:
+  basic:
+    packages: []
+repo: 'http://not.available.yet/'
