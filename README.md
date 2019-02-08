@@ -7,7 +7,11 @@ This is a charm to install Nextcloud (https://nextcloud.com/)
 
 # Bugs
 
-On cosmic you may have to apply the misc/layersfix.patch to the (already built) charm before deploying.
+If you are building from sources on cosmic you may have to apply the misc/layersfix.patch to the (already built) charm before deploying.
+
+```bash
+patch -p0 < nextcloud/misc/layersfixes.patch
+```
 
 # Usage
 
