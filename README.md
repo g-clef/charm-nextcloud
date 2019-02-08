@@ -51,3 +51,5 @@ Now you can access nextcloud service at 'http://<ipaddress-of-owncloud-instance>
 ### Author
 * Andre Ruiz <andre.ruiz (at) canonical.com>
 
+Sources at https://github.com/token47/charm-nextcloud
+
