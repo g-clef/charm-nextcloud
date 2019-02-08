@@ -7,4 +7,4 @@ includes:
 options:
   basic:
     packages: []
-repo: 'http://not.available.yet/'
+repo: 'https://github.com/token47/charm-nextcloud'

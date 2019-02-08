@@ -46,7 +46,9 @@ juju deploy mysql
 juju relate mysql nextcloud
 ```
 
-Now you can access nextcloud service at 'http://<ipaddress-of-owncloud-instance>/'.
+Note: the charm is temporarily revoked from the charmstore until patches can be integrated in the buildsystem.
+
+Now you can access nextcloud service at 'http://ipaddress-of-instance/'.
 
 ### Author
 * Andre Ruiz <andre.ruiz (at) canonical.com>
