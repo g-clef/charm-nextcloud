@@ -11,14 +11,35 @@ On cosmic you may have to apply the misc/layersfix.patch to the (already built) 
 
 # Usage
 
+If you are building the charm from source:
+
 ```bash
-juju deploy nextcloud
+
+charm build
+
+```
+
+If you are deplying it locally:
+
+```bash
+
+juju deploy /tmp/charm-builds/nextcloud
 
 juju deploy mysql
 
 juju relate mysql nextcloud
 
-juju expose nextcloud
+```
+
+If you are deploying from the charmstore:
+
+
+```bash
+juju deploy cs:~andre-ruiz/nextcloud
+
+juju deploy mysql
+
+juju relate mysql nextcloud
 ```
 
 Now you can access nextcloud service at 'http://<ipaddress-of-owncloud-instance>/'.
