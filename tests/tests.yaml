@@ -1,0 +1,26 @@
+bootstrap: false
+reset: false
+virtualenv: true
+virtualenv_python: python3
+tests: "[0-9]*"
+#excludes:
+#  - `charm-name`
+#sources:
+#  - ppa:ubuntu-lxc/lxd-stable
+#packages:
+#  - lxd
+python_packages:
+  - bzr
+  - juju-deployer
+  - amulet
+  - requests
+requirements:
+#  - test-requirements.txt
+  - requirements.txt
+#makefile:
+#  - lint
+#  - test
+#setup: `filename`
+#teardown: `filename`
+bundle_deploy: false
+deployment_timeout: 2700
