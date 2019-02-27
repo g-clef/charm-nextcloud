@@ -5,15 +5,6 @@ Nextcloud
 
 This is a charm to install Nextcloud (https://nextcloud.com/)
 
-# Bugs
-
-If you are building from sources on cosmic you may have to apply the misc/layersfix.patch to the (already built) charm before deploying.
-
-```bash
-patch -p0 < nextcloud/misc/apache-php-nameclash-fix.patch
-patch -p0 < nextcloud/misc/basic-cfg-python-packages-fix.patch
-```
-
 # Usage
 
 If you are building the charm from source:
@@ -46,8 +37,6 @@ juju deploy mysql
 
 juju relate mysql nextcloud
 ```
-
-Note: the charm is temporarily revoked from the charmstore until patches can be integrated in the buildsystem.
 
 Now you can access nextcloud service at 'http://ipaddress-of-instance/'.
 
