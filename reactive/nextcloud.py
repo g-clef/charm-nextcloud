@@ -11,13 +11,13 @@ from pathlib import Path
 import subprocess
 
 
-@hook("database-relation-joined")
+@hook("mysql-relation-joined")
 def db_ready():
     status_set("blocked", "Database joined but not configured")
     set_flag("nextcloud.db_ready")
 
 
-@when('nextcloud.db_ready')
+@when('nextcloud.db_ready', 'mysql.available')
 @when_not('nextcloud.initdone')
 def init_nextcloud(mysql):
 
