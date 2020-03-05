@@ -12,7 +12,7 @@ import subprocess
 
 
 @hook("mysql-relation-joined")
-def db_ready():
+def db_ready(_):
     status_set("blocked", "Database joined but not configured")
     set_flag("nextcloud.db_ready")
 
