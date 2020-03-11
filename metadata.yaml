@@ -1,11 +1,13 @@
 name: nextcloud
 display-name: Nextcloud
 summary: Nextcloud File Server
-maintainer: Andre Ruiz <andre.ruiz@canonical.com>
+maintainer: Aaron Gee-Clough <aaron@g-clef.net>
 description: |
   Nextcloud is a suite of client-server software for creating and using file hosting services.
   It is functionally similar to Dropbox, but Nextcloud is free and open-source, which means that
   anyone is allowed to install and operate it on a private server.
+
+  This charm was originally developed by Andre Ruiz <andre.ruiz@canonical.com>.
 tags:
   - fileserver
   - nextcloud

@@ -17,6 +17,6 @@ sites:
   nextcloud:
     options: 'Indexes FollowSymLinks MultiViews'
     install_from:
-      source: https://download.nextcloud.com/server/releases/nextcloud-15.0.2.tar.bz2
-      checksum: c1f4cc33e39994ddbe6777370b62c30b7ae52136a0530c0b9922770803ca0fea
+      source: https://download.nextcloud.com/server/releases/nextcloud-18.0.1.tar.bz2
+      checksum: 770faf34b8f0d81273623daed4d64ec7919c38dfeb07328b613058addbed19c0
       hash_type: sha256
